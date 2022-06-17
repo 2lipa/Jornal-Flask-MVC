@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ estado.get__nome() }}{% endblock %}
+
+{% block header %}
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="news border border-1">
+        <div class="card border-0">
+
+            <div class="titulo_estado">
+                <img class="bandeira_grande" src="{{ estado.get__bandeira() }}" alt="Card image cap">
+                <p class="nome_estado">{{ estado.get__nome() }}</p>
+            </div>
+
+            <hr>
+
+            {% for noticia in noticia %}
+                {% if noticia.get__estado() == estado.get__sigla() %}
+                    <div class="card-horizontal border-bottom border-2">
+                        <div class="img-square-wrapper">
+                            <a class="foto-noticia-pequena" href="{{url_for('exibir_noticia', id=noticia.get_id())}}"><img class="foto-noticia-pequena"
+                                    src="{{ noticia.get__foto() }}" alt="Card image cap"></a>
+                        </div>
+                        <div>
+                            <a class="link-noticia-pequena" href="{{url_for('exibir_noticia', id=noticia.get_id())}}">
+                                <div class="card-body">
+                                    <li class="card-title"><h4>{{ noticia.get__titulo() }}</h4></li>
+                                    <li class="card-text">{{ noticia.get__descricao() }}</li>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+    
+
+
+  
+
+
+</div>
+{% endblock %}

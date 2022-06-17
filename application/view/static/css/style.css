@@ -1,0 +1,211 @@
+/* Config */
+
+.navbar {
+    background-color: #3d3d3d
+}
+
+.navbar-meu {
+    box-shadow: 0px 0px 10px 0px #3d3d3d;
+}
+
+
+.topnav {
+    overflow: hidden;
+    display: flex;
+}
+li {
+    display: inline;
+}
+
+/* Body */
+
+.container {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+
+.Noticia-1 {
+    width: 60em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.link-noticia-grande {
+    text-decoration: none;
+    color: white;
+}
+
+.news{
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 15px;
+}
+
+.card-horizontal {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    display: flex;
+    flex: 1 1 auto;
+    margin-bottom: 1em;
+}
+
+.foto-noticia-pequena {
+    width: 25em;
+    height: 15em;
+}
+
+.link-noticia-pequena {
+    width: auto;
+    text-decoration: none;
+    color: black;
+}
+
+.more-news{
+    font-size: 35px;
+    text-align: center;
+}
+
+.titulo {
+    text-align: left;
+}
+
+.sub-titulo {
+    text-align: left;
+}
+
+.hr-noticia {
+    color: #212529;
+    margin-top: 1em;
+    width: auto;
+    margin-bottom: 3em;
+}
+
+.noticia-main{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.foto-1 {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.foto-1-disc{
+    font-size: small;
+    color: gray;
+}
+
+/* Notícia */
+
+.noticia-teste{
+    padding-left: 1em;
+}
+
+.noticia-texto{
+    padding-top: 1em;
+    width: 800px;
+    font-size: 25px;
+    text-align: left;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.link-noticia-nova {
+    width: auto;
+    text-decoration: none;
+    color: black;
+}
+
+.card-text {
+    margin: 0 auto;
+}
+
+.data_noticia {
+    font-size: 15px;
+    color: darkgrey;
+    display: flex;
+}
+
+.curtida_noticia {
+    margin-left: auto;
+}
+
+/* ERROR */
+
+.container-erro{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+.error {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+
+.icon-erro {
+    width: 20%;
+}
+
+/* Footer */
+
+.text-center {
+    background-color: #3d3d3d;
+    color: white;
+}
+
+.teste {
+    padding-top: 1em;
+}
+
+/* Link estados */
+
+.link-estados {
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+}
+
+.bandeira {
+    width: 15%;
+}
+
+.titulo_estado {
+    margin: 0 auto;
+}
+
+.bandeira_grande{
+    width: 20em;
+}
+
+.nome_estado{
+    font-size: 25px;
+    text-align: center;
+}
+
+/* Comentario Noticia */
+
+.email-formulario {
+    display: flex;
+}
+
+.titulo-usuario {
+    margin-right: auto;
+}
+
+.email-usuario{
+    margin-left: auto;
+}
